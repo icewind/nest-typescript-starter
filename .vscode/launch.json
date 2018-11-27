@@ -2,15 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Docker -> Node",
+      "name": "Node.js in Docker",
       "type": "node",
       "request": "attach",
       "port": 9229,
       "address": "localhost",
-      "localRoot": "${workspaceFolder}/build",
+      "localRoot": "${workspaceFolder}",
       "remoteRoot": "/app",
       "protocol": "inspector",
-      "restart": true
+      "restart": true,
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+      ]
     }
   ]
 }

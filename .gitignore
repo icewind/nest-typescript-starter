@@ -390,3 +390,4 @@ Temporary Items
 .env
 docker-compose.yml
 dist
+postgres-data

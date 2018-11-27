@@ -9,4 +9,5 @@ export default class AppController {
   index(): string {
     return this.appService.greetings();
   }
+
 }
