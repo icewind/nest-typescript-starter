@@ -40,7 +40,6 @@
     "dotenv": "latest",
     "pg": "latest",
     "reflect-metadata": "latest",
-    "rimraf": "latest",
     "rxjs": "latest",
     "typeorm": "latest"
   },
@@ -51,6 +50,7 @@
     "jest": "latest",
     "nodemon": "latest",
     "prettier": "latest",
+    "rimraf": "^2.6.2",
     "supertest": "latest",
     "ts-jest": "latest",
     "ts-loader": "latest",
