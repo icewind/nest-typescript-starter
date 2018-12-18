@@ -93,13 +93,13 @@ npm run migrations:run
 npm run migrations:revert
 ```
 
-### Generate entities from databash schema
+### Generate entities from database schema
 
 ```bash
 npm run migrations:generate
 ```
 
-TypeORM generates migrations as typescript files. And on production environment there is no need to use TS. So you may use
+TypeORM generates migrations as typescript files. And in a production environment there is no need to use TS. So you may use
 
 ```bash
 npm run migrations:run:production
