@@ -69,31 +69,31 @@ $ npm run test:cov
 
 There are a list of additional commands to help you make some actions faster.
 
-### Create a new migration file
+#### Create a new migration file
 
 ```bash
 npm run migrations:create -- -n "MigrationName"
 ```
 
-### If you created an entiry first and want to get a raw sql for you migration you can use
+#### If you created an entiry first and want to get a raw sql for you migration you can use
 
 ```bash
 npm run db:schema:log
 ```
 
-### Run migrations
+#### Run migrations
 
 ```bash
 npm run migrations:run
 ```
 
-### Revert migrations
+#### Revert migrations
 
 ```bash
 npm run migrations:revert
 ```
 
-### Generate entities from database schema
+#### Generate entities from database schema
 
 ```bash
 npm run migrations:generate
