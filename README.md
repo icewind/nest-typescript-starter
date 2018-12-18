@@ -75,7 +75,7 @@ There are a list of additional commands to help you make some actions faster.
 npm run migrations:create -- -n "MigrationName"
 ```
 
-#### If you created an entiry first and want to get a raw sql for you migration you can use
+#### Once you created an entity, you can generate SQL query for the migration by using
 
 ```bash
 npm run db:schema:log
